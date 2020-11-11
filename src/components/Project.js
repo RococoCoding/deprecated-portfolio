@@ -1,15 +1,25 @@
 import React from "react";
-import styled from "styled-components";
-
-const StyledProject = styled.div` 
-
-`
+import parse from "html-react-parser";
+import StyledProject from "../styles/projectStyles";
 
 export default function Project(props) {
+  const splitStatus = props.status.split(" ");
+  const kebabStatus = splitStatus.join("-");
+
   return (
-    <StyledProject>
-      <img src={props.src} />
-      <p>{props.text}</p>
+    <StyledProject className="project-container">
+      <div className="img-title">
+        <h3>{props.title} - <span className={kebabStatus}>{props.status}</span></h3>
+        <a href={`${props.url}`} target='_new' > <img src={props.src} /></a>
+      </div>
+      <div className="project-info">
+        <p>{parse(props.text)}</p>
+        <ul>
+          {props.features.map((el, idx) =>{
+            return <li key={idx}><span>{el}</span></li>
+          })}
+        </ul>
+      </div>
     </StyledProject>
   ) 
 }

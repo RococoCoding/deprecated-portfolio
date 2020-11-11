@@ -21,7 +21,7 @@ const SkillStyled = styled.div`
   }
 `
 
-export default function Skill(props) {
+function Skill(props) {
   return (
     <SkillStyled>
       <p className="skill-text">{props.language}</p>
@@ -29,3 +29,5 @@ export default function Skill(props) {
     </SkillStyled>
   )
 }
+
+export default Skill;

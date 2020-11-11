@@ -2,7 +2,9 @@
   --black: #161616;
   --white: #efefef;
   --grey: #666666;
-  --aqua: #42f4cb;
+	--aqua: #42f4cb;
+	--darkaqua: #55ccb0;
+	--constructioncone: #FF7900;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -55,8 +57,19 @@ table {
 }
 
 body {
+	width: 100%;
   background-color: var(--black);
   color: var(--white);
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
+}
+
+.project-container:nth-of-type(2n) {
+	margin-left: 25%;
+	padding-right: 5%;
+	flex-direction: row-reverse;
+}
+.project-container:nth-of-type(2n) div {
+	margin-right: 2%;
+	margin-left: 0;
 }
