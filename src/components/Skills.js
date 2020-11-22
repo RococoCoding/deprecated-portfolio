@@ -2,9 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import Skill from "./Skill";
 
-let codingSkillsArray = [{width: 70, language: "Javascript"}, {width: 60, language: "HTML/CSS"}, {width: 55, language: "React/Redux"}, {width: 1, language: "Node/Express"}, {width: 10, language: "Python"}];
+let codingSkillsArray = [{width: 68, language: "Javascript"}, {width: 60, language: "HTML/CSS"}, {width: 55, language: "React/Redux"}, {width: 1, language: "Node/Express"}, {width: 10, language: "Python"}];
 
-let otherSkillsArray = [{width: 4, language: "Regex", extra: "ERROR +++ \\eR̨͚̱̥͕̲͒̆͑ͦ*RoЯ/ ++̸͓͚̽͌͆͐  Er\\ŗ̗̰͇̣͒ͭrê̸͎̦̳̳͙̦͆̑ͅr +\\E͕͖̭̮͖͉̭͐ͮ̀ͅr̠̜̤͓̖ͭ̎͌̏͢ͅ/̴̘̣̳̓̊*̡̮͒ͣͣ̑ͅͅͅÔ̹͕ͤ͆͡R̩̰̠͉̎ͮ͝/̩͈̦́͆̓́+"}, {width: 70, language: "Debugging"}];
+let otherSkillsArray = [{width: 4, language: "Regex", extra: "ERROR++ \\eR̨͚̱̥͕̲͒̆͑ͦ*RoЯ/ ++̸͓͚̽͌͆͐  Er\\ŗ̗̰͇̣͒ͭrê̸͎̦̳̳͙̦͆̑ͅr +\\E͕͖̭̮͖͉̭͐ͮ̀ͅr̠̜̤͓̖ͭ̎͌̏͢ͅ/̴̘̣̳̓̊*̡̮͒ͣͣ̑ͅͅͅÔ̹͕ͤ͆͡R̩̰̠͉̎ͮ͝/̩͈̦́͆̓́+"}, {width: 70, language: "Problem solving"}];
+
+// communicating remotely, teamwork, dependability
 
 const SkillsStyled = styled.section`
   width: 45%;

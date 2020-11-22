@@ -72,6 +72,7 @@ function App() {
           <a href="mailto: alicetchang@gmail.com" target="_blank"><img src="assets/mail.png" alt="email icon"/></a>
           <a href="https://twitter.com/rocococode" target="_blank"><img class="twit" src="assets/twitter.png" alt="twitter mini icon"/></a>
           <a href="https://www.linkedin.com/in/rocococode/" target="_blank"><img src="assets/linkedin.png" alt="linkedin mini icon" class="linkedin"/></a>
+          <a href="https://github.com/RococoCoding" target="_blank"><img src="assets/github.png" alt="github icon" /></a>
         </div>
         <nav>
           <Link to="/about">About</Link>

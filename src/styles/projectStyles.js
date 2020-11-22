@@ -42,6 +42,11 @@ const StyledProject = styled.div`
     color: var(--darkaqua);
   }
 
+  em {
+    font-style: italic;
+    /* color: var(--darkaqua); */
+  }
+
   p {
     line-height: 1.6rem;
     margin-bottom: 5%;

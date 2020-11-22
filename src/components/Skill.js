@@ -12,7 +12,7 @@ const SkillStyled = styled.div`
   }
   .skill-text {
     padding-right: 2%;
-    width: 24%;
+    width: 30%;
   }
   .Regex {
     background-color: red;
