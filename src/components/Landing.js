@@ -19,7 +19,7 @@ export default function Landing(props) {
       </div>
       <div className="landing-intro">
         <h2>Alice Chang</h2>
-        <p>wants to help you build and/or manage your website! She knows JavaScript and React and is currently studying Node/Express.</p>
+        <p>wants to help you build your website! She knows JavaScript and React and is currently studying Node/Express.</p>
         <button onClick={enter}>Learn More</button>
       </div>
       

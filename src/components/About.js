@@ -19,6 +19,9 @@ const AboutStyled = styled.main`
     line-height: 1.6rem;
     margin-bottom: 3%;
   }
+  em {
+    color: var(--aqua);
+  }
 `
 
 export default function About(props) {
@@ -27,9 +30,11 @@ export default function About(props) {
       <Skills />
       <section className="about">
         <h2>About Me</h2>
-        <p>I'm Alice, a web dev student at Lambda School learning JS, React, Redux, Node and a little bit of Python.</p> 
-        <p>I've always been a computer nerd, but never really did much coding beyond a computer applications course in high school. I had been feeling a bit restless the past few years, which resulted in my taking some time off to go to Maine to learn how to build a wooden rowboat??? I didn't know anything about wood or boats or tools, but I'm the kind of person who enjoys diving into new things. What I realized from that experience was that I wanted to make things, but also that I would very, very much wanted to keep all my fingers. Thus, my renewed interest in coding. </p>
-        <p>The timing seemed right when the pandemic hit and it seemed like a pretty good idea to hole myself up in front of a computer for a few months. I was the kid who did logic puzzles for fun, so I'm enjoying it a lot! I love solving problems so I get really in debugging and I love being able to make functional apps that people can use and interact with.</p>
+        <p>I'm Alice, a full-time web dev student at Lambda School. Before coding I studied linguistics and worked as a court reporter. I love variety in all things and am always ready to dive into new experiences. I am a bit nerdy and can be shy -- I'm better online than in person -- but am very easy to get along with.</p>
+        <h2>How I Can Help You</h2>
+        <p>I can help you build your site using any of the skills I've listed to the left, but I'm also a <em>quick learner</em> so I can pick up any language, library or framework you need! I am exceptionally <em>smart</em>, <em>focused</em>, and a bit of a <em>workhorse</em>. I debug with an eye towards understanding why code behaves the way it does instead of the way I think it should so I can <em>learn from my mistakes</em>. Thanks to my experience court reporting, I have a keen eye for proofreading so I tend to write <em>clean code</em>.</p>
+        <h2>What I'm Looking For</h2>
+        <p>Most importantly, I'd like to join a team that values <em>honesty</em>, <em>open communication</em> and <em>support for each other</em>. I'm currently based in the US, but I'm interested in moving abroad, so I'm looking for <em>remote-only work</em> or something that will let me <em>relocate to outside the US</em>. (I have a degree in linguistics, so I'm quick to pick up new languages. I also have a passing familiarity with French, Spanish, and German, a moderate ability in Mandarin Chinese and am currently studying Finnish.)</p>
       </section>
     </AboutStyled>
   );

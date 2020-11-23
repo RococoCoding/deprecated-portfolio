@@ -41,8 +41,9 @@ const LandingStyled = styled.div`
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 5%;
+    border-radius: 6px;
   }
-  
+
   button:hover {
     cursor: pointer;
   }
