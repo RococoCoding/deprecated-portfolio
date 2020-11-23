@@ -59,11 +59,11 @@ const StyledProject = styled.div`
   li {
     padding: 2% 0;
   }
+
   li span {
     font-weight: normal;
     position: relative;
     left: -4%;
   }
-  
 `
 export default StyledProject;

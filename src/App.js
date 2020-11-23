@@ -1,67 +1,11 @@
 import React from "react";
 import {Route, Switch, Link} from "react-router-dom";
-import styled from "styled-components";
 
-import Projects from "./components/Projects";
+import ProjectList from "./components/ProjectList";
 import About from "./components/About";
 import Contact from "./components/Contact";
-
-const AppStyled = styled.main`
-
-  /* #region header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--grey);
-    padding: 2%;
-    font-size: 1.3rem;
-    text-align: right;
-    height: 5vh;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  nav {
-    padding: 0 3%;
-  }
-
-  nav a {
-    padding: 0 7%;
-    border-right: 2px solid white;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  nav a:hover {
-    color: var(--aqua);
-  }
-
-  nav a:last-of-type {
-    border-right: none;
-  }
-
-  .social-media {
-    display: flex;
-  }
-  
-  .social-media a {
-    margin: 0 5%;
-  }
-
-  .social-media img {
-    width: 90%;
-  }
-
-  .social-media img:hover {
-    width: 120%;
-  }
-
-  .twit {
-    border-radius: 50%;
-  }
-` 
+import Landing from "./components/Landing";
+import AppStyled from "./styles/appStyles";
 
 function App() {
   return (
@@ -78,11 +22,15 @@ function App() {
           <Link to="/about">About</Link>
           {/* <Link to="/contact">Contact</Link> */}
           <Link to="/projects">Projects</Link>
+          <Link to="/landing">Landing</Link>
         </nav>
       </header>
       <Switch>
+        <Route path="/landing">
+          <Landing />
+        </Route>
         <Route path="/projects">
-          <Projects />
+          <ProjectList />
         </Route>
         <Route path="/contact">
           <Contact />

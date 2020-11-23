@@ -2,7 +2,7 @@ import React from "react";
 import parse from "html-react-parser";
 import StyledProject from "../styles/projectStyles";
 
-export default function Project(props) {
+export default function ProjectList(props) {
   const splitStatus = props.status.split(" ");
   const kebabStatus = splitStatus.join("-");
 
