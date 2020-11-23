@@ -11,16 +11,18 @@ export default function Landing(props) {
  
   return (
     <LandingStyled>
-      <div>
+      <div className="landing-anim">
         <p className="landing-anim-full">Full</p>
         <p className="landing-anim-stack">Stack</p>
         <p className="landing-anim-web">Web</p>
         <p className="landing-anim-dev">Dev</p>
       </div>
-      <div>
-        <p>Alice Chang</p>
-        <button onClick={enter}>Enter</button>
+      <div className="landing-intro">
+        <h2>Alice Chang</h2>
+        <p>wants to help you build and/or manage your website! She knows JavaScript and React and is currently studying Node/Express.</p>
+        <button onClick={enter}>Learn More</button>
       </div>
+      
     </LandingStyled>
   )
 };
