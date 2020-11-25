@@ -22,7 +22,7 @@ let projectsArray = [
     title: "Portfolio",
     status: "Under Construction",
     text: "I'm not great at design so I infused <strong>my portfolio</strong> with a little bit of humor and hid a few easter eggs to make it a more interesting experience. I hope you have some fun as you explore the site!",
-    features: ["GreenSock Animation Platform", "React functional components", "easter eggs"],
+    features: ["GreenSock Animation Platform", "React functional components", "easter eggs", "responsive"],
     url: "",
     github: "https://github.com/RococoCoding/portfolio"
   }

@@ -10,7 +10,7 @@ export default function ProjectList(props) {
     <StyledProject className="project-container">
       <div className="img-title">
         <h3>{props.title} - <span className={kebabStatus}>{props.status}</span></h3>
-        <a href={`${props.url}`} target='_new' > <img src={props.src} alt={`Screenshot of ${props.title} website`}/></a>
+        <a href={props.url} target='_new' > <img src={props.src} alt={`Screenshot of ${props.title} website`}/></a>
       </div>
       <div className="project-info">
         <p>{parse(props.text)}</p>

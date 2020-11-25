@@ -47,5 +47,92 @@ const LandingStyled = styled.div`
   button:hover {
     cursor: pointer;
   }
+
+  .landing-anim-dev {
+    animation: drop-dev 1s cubic-bezier(0,.47,.76,1.28);
+    animation-fill-mode: forwards;
+  }
+
+  .landing-anim-web {
+    animation: drop-web 2s cubic-bezier(0,.47,.76,1.28);
+    animation-fill-mode: forwards;
+  }
+
+  .landing-anim-stack {
+    animation: drop-stack 3s cubic-bezier(0,.47,.76,1.28);
+    animation-fill-mode: forwards;
+  }
+
+  .landing-anim-full {
+    animation: drop-full 4s cubic-bezier(0,.47,.76,1.28);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes drop-dev {
+    0% {
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 18%;
+      top: 63%;
+    }
+  }
+
+  @keyframes drop-web {
+    0% {
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    50% {
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 18%;
+      top: 48%;
+    }
+  }
+
+  @keyframes drop-stack {
+    0%{
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    66% {
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 18%;
+      top: 33%;
+    }
+  }
+
+  @keyframes drop-full {
+    0%{
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    75% {
+      position: fixed;
+      left: 18%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 18%;
+      top: 19%;
+    }
+  }
 `
 export default LandingStyled;
