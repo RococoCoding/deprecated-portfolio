@@ -22,7 +22,7 @@ function App() {
           <Link to="/about">About</Link>
           {/* <Link to="/contact">Contact</Link> */}
           <Link to="/projects">Projects</Link>
-          <Link to="/landing">Landing</Link>
+          {/* <Link to="/landing">Landing</Link> */}
         </nav>
       </header>
       <Switch>
