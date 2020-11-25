@@ -18,14 +18,14 @@ function Skills() {
     <SkillsStyled>
       <h2>Core Skills</h2>
       <div className="skills">
-        {codingSkillsArray.map(skill => {
-          return <Skill key={Date.now()} language={skill.language} width={skill.width}/>
+        {codingSkillsArray.map((skill, idx) => {
+          return <Skill key={idx} language={skill.language} width={skill.width}/>
         })}
       </div>
       <h2>Other skills</h2>
       <div className="skills">
-        {otherSkillsArray.map(skill => {
-          return <Skill key={Date.now()} language={skill.language} width={skill.width} extra={skill.extra}/>
+        {otherSkillsArray.map((skill, idx) => {
+          return <Skill key={idx} language={skill.language} width={skill.width} extra={skill.extra}/>
         })}
         {/* <p>Testing</p> 
         <div></div>

@@ -12,9 +12,9 @@ const StyledProjects = styled.section`
 export default function Projects(props) {
   return (
     <StyledProjects>
-      {projectsArray.map(project => {
+      {projectsArray.map((project, idx) => {
         return <Project 
-          key={Date.now()}
+          key={idx}
           src={project.image}
           text={project.text}
           title={project.title}
