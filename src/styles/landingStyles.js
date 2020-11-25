@@ -6,7 +6,6 @@ const LandingStyled = styled.div`
   font-size: 3rem;
   justify-content: space-between;
   align-items: space-between;
-  
   .landing-anim {
     width: 50%;
     text-align: center;
