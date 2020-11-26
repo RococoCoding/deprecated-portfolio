@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Switch, Link, useHistory } from "react-router-dom";
 
 import ProjectList from "./components/ProjectList";
 import About from "./components/About";
@@ -9,10 +9,16 @@ import AppStyled from "./styles/appStyles";
 
 
 function App() {
+  const { push } = useHistory();
+
+  function routeToLanding() {
+    push("/landing");
+  }
+
   return (
     <AppStyled>
       <header className="header">
-        <h1>Rococo Code</h1>
+        <h1 onClick={routeToLanding}>Rococo Code</h1>
         <div className="social-media">
           <a href="mailto: alicetchang@gmail.com" target="_blank" rel="noreferrer"><img src="assets/mail.png" alt="email icon" /></a>
           <a href="https://twitter.com/rocococode" target="_blank" rel="noreferrer"><img className="twit" src="assets/twitter.png" alt="twitter mini icon" /></a>

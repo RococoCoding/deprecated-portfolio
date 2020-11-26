@@ -21,6 +21,11 @@ h1 {
   font-weight: bold;
 }
 
+h1:hover {
+  cursor: pointer;
+  color: var(--aqua);
+}
+
 nav {
   width: 35%;
 }
