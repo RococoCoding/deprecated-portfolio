@@ -10,7 +10,7 @@ const blogs = [
     The back end person is kind of isolated creating the api and the Unit 2 person is responsible for creating forms and styling. Unit 3 is the person who kind of needs to map out how the app works. So I went into full planning-zilla mode for this and made up a flow chart for my Redux state management. This is for an exercise class app. 
     
     <figure>
-      <img src="/images/flowchart.png" alt="flowchart showing the relationship between reducers/state and actions and things users should be able to do" />
+      <img src="assets/images/flowchart.png" alt="flowchart showing the relationship between reducers/state and actions and things users should be able to do" />
       <figcaption>
         Left: Reducers containing state. Middle: Actions that say how to interact with state. Right: Things users can do. White is all users, yellow is clients, blue is instructors.
       </figcaption>

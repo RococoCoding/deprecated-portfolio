@@ -11,7 +11,7 @@ export default function Writing(props) {
       <h3>{title}</h3>
       <h4>{date}</h4>
       <p>{summary}</p>
-      <p>parse({text})</p>   
+      <p>{parse(text)}</p>   
     </StyledWriting>
   );
 };
