@@ -13,12 +13,20 @@ header {
   height: 3vh;
 }
 
+h1 {
+  width: 25%;
+  font-size: 2rem;
+  text-align: left;
+  word-spacing: 0.5rem;
+  font-weight: bold;
+}
+
 nav {
-  padding: 0 3%;
+  width: 35%;
 }
 
 nav a {
-  padding: 0 7%;
+  padding: 0 5%;
   border-right: 2px solid white;
   text-decoration: none;
   color: inherit;

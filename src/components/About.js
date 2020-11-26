@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import Skills from "./Skills";
 import AboutStyled from "../styles/aboutStyles";
 
