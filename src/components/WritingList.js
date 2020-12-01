@@ -5,14 +5,20 @@ import blogs from "../data/blogs";
 import Writing from "./Writing";
 
 const StyledWritingList = styled.section`
-
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2%;
+  }
 
 `
 
 export default function WritingList() {
+
   return (
     <StyledWritingList>
-      Blog Posts
+      <h2>Blog Posts</h2>
       {blogs.map((blog, idx) => {
         return (
           <Writing 
