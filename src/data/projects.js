@@ -17,15 +17,15 @@ let projectsArray = [
     url: "https://rocococoding.github.io/stacks/",
     github: "https://github.com/RococoCoding/stacks"
   },
-  {
-    image: "",
-    title: "Portfolio",
-    status: "Under Construction",
-    text: "I'm not great at design so I infused <strong>my portfolio</strong> with a little bit of humor and hid a few easter eggs to make it a more interesting experience. I hope you have some fun as you explore the site!",
-    features: ["GreenSock Animation Platform", "React functional components", "easter eggs", "responsive"],
-    url: "",
-    github: "https://github.com/RococoCoding/portfolio"
-  }
+  // {
+  //   image: "/assets/projects/portfolio.png",
+  //   title: "Portfolio",
+  //   status: "Under Construction",
+  //   text: "I'm not great at design so I infused <strong>my portfolio</strong> with a little bit of humor and hid a few easter eggs to make it a more interesting experience. I hope you have some fun as you explore the site!",
+  //   features: ["React functional components", "easter eggs", "responsive"],
+  //   url: "https://www.rocococode.com/landing",
+  //   github: "https://github.com/RococoCoding/portfolio"
+  // }
 ];
 
 export default projectsArray;

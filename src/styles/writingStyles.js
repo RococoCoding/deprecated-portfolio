@@ -2,26 +2,40 @@ import styled from "styled-components";
 
 const StyledWriting = styled.div`
   margin: 2%;
+  text-align: center;
   h3 {
     font-size: 1.5rem;
+    width: max-content;
+    border-bottom: solid 2px var(--white);
+    margin: 4% auto 0 auto;
   }
   .blog-summary {
     font-size: 1.5rem;
     margin: 1% 0;
   }
   .blog-full {
-    margin: 1% 0;
+    width: 75%;
+    margin: 1% auto;
     font-size: 1.3rem;
     line-height: 1.5rem;
     display: none;
     background-color: var(--pastelaqua);
     color: black;
     border-radius: 2%;
-    padding: 3%;
+    padding: 3% 5%;
+    text-align: left;
+  }
+  figure {
+    margin: 5% 0;
+    font-size: 1.1rem;
+  }
+  .blog-full p {
+    text-indent: 4%;
+    margin-bottom: 1%;
   }
   .blog-full img {
     display: block;
-    width: 50%;
+    width: 60%;
     margin: 2% auto;
   }
   

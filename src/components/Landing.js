@@ -19,8 +19,8 @@ export default function Landing(props) {
       </div>
       <div className="landing-intro">
         <h2>Alice Chang</h2>
-        <p>wants to help you build your website! She knows JavaScript and React and is currently studying Node/Express.</p>
-        <button onClick={enter}>Learn More</button>
+        <p>is looking for a full-stack web dev job! She specializes in JavaScript, React and Node/Express, and is also studying Python.</p>
+        <button onClick={enter}>Enter</button>
       </div>
       
     </LandingStyled>
