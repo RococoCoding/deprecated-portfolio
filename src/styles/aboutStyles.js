@@ -23,7 +23,17 @@ em {
 @media only screen and (max-width: 500px) {
   flex-direction: column;
   .about {
-    width: 100%;
+    width: 96%;
+    margin: 0 2%;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5%;
+  }
+  .about p {
+    font-size: 1 rem;
+    line-height: 1.3 rem;
   }
 }
 `

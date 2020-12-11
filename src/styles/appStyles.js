@@ -9,7 +9,6 @@ header {
   background-color: var(--grey);
   padding: 2%;
   font-size: 1.8rem;
-  text-align: right;
   height: 3vh;
 }
 
@@ -68,7 +67,33 @@ nav a:last-of-type {
 @media only screen and (max-width: 500px) {
   header {
     font-size: 1rem;
+    height: 8vh;
+    flex-wrap: wrap;
+    width: 101%;
+    padding: 2%;
+  }
+  h1 {
+    width: 30%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .social-media {
     width: 100%;
+    order: 3;
+    margin-left: 30%;
+    margin-top: 3%;
+  }
+  .social-media img {
+    width: 40%;
+  }
+  .social-media a {
+    margin: 0;
+  }
+  nav {
+    width: 65%;
+    margin-top: 1%;
+    text-align: center;
   }
 }
 ` 
