@@ -101,6 +101,9 @@ nav a:last-of-type {
   .social-media img {
     width: 40%;
   }
+  .social-media img:hover {
+   width: 70%;
+  }
   .social-media a {
     margin: 0;
   }

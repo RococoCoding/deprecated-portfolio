@@ -133,5 +133,122 @@ const LandingStyled = styled.div`
       top: 19%;
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    .landing-intro {
+      margin: 22% 0;
+    }
+    h2 {
+      line-height: 4.8rem;
+      margin-left: 14%;
+      margin-bottom:7%;
+    }
+    .landing-anim {
+      margin-left: 10%;
+    }
+    button {
+      margin-top: 10%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+    .landing-intro {
+      width: 90%;
+      margin: 70% 0 0 5%;
+      padding: 0;
+    }
+    .landing-intro p {
+      font-size: 1.3rem;
+      margin-left: 5%;
+      line-height: 1.6rem;
+      width: 90%;
+      text-align: center;
+    }
+    button {
+      font-size: 1.3rem;
+      margin-left: 37%;
+    }
+    h2 {
+      font-size: 2.4rem;
+      line-height: 4.8rem;
+      margin: 5% 0 0 16%;
+    }
+    .landing-anim {
+      margin-top: 5%;
+    }
+    .landing-anim p {
+      font-size: 3.5rem;
+    }
+    button {
+      margin-top: 10%;
+    }
+    
+  @keyframes drop-dev {
+    0% {
+      position: fixed;
+      left: 37%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 37%;
+      top: 33%;
+    }
+  }
+
+  @keyframes drop-web {
+    0% {
+      position: fixed;
+      left: 35%;
+      top: -15%;
+    }
+    50% {
+      position: fixed;
+      left: 35%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 35%;
+      top: 23%;
+    }
+  }
+
+  @keyframes drop-stack {
+    0%{
+      position: fixed;
+      left: 31%;
+      top: -15%;
+    }
+    66% {
+      position: fixed;
+      left: 31%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 31%;
+      top: 12%;
+    }
+  }
+
+  @keyframes drop-full {
+    0%{
+      position: fixed;
+      left: 38%;
+      top: -15%;
+    }
+    75% {
+      position: fixed;
+      left: 38%;
+      top: -15%;
+    }
+    100% {
+      position: fixed;
+      left: 38%;
+      top: 2%;
+    }
+  }
+  }
 `
 export default LandingStyled;
