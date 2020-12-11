@@ -52,6 +52,23 @@ const StyledWriting = styled.div`
     color: var(--aqua);
     font-size: 1.5rem;
   }
+  
+  @media only screen and (max-width: 800px) {
+    .blog-summary {
+    font-size: 1.8rem;
+    }
+    h3 {
+      font-size: 1.9rem;
+    }
+    .blog-full {
+      border-radius: 7px;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      width: 90%;
+      padding: 5%;
+    }
+  }
+
   @media only screen and (max-width: 500px) {
   .blog-summary {
     font-size: 1rem;
@@ -61,10 +78,8 @@ const StyledWriting = styled.div`
   }
   .blog-full {
     font-size: 0.9rem;
-    border-radius: 7px;
-    width: 90%;
   }
-  }
+}
 `
 
 export default StyledWriting;

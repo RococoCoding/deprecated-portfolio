@@ -11,6 +11,10 @@ let otherSkillsArray = [{width: 4, language: "Regex", extra: "ERROR++ \\eR͒̆͑
 const SkillsStyled = styled.section`
   width: 45%;
   font-size: 1.2rem;
+  @media only screen and (max-width: 800px) {
+    width: 96%;
+    margin: 0 2%;
+  }
   @media only screen and (max-width: 500px) {
     width: 96%;
     margin: 0 2%;

@@ -25,6 +25,20 @@ const SkillStyled = styled.div`
     padding-left: 2%;
     white-space: nowrap;
   }
+  
+  @media only screen and (max-width: 800px) {
+    .skill-bar-wrapper {
+      width: 60%;
+    }
+    .skill-text {
+      width: 30%;
+      font-size: 1.5rem;
+      margin-left: 3%;
+    }
+    .skill-bar {
+      margin-left: 0;
+    }
+  }
 
   @media only screen and (max-width: 500px) {
   .Regex {
@@ -45,6 +59,7 @@ const SkillStyled = styled.div`
     margin: 0;
     line-height: 1.2rem;
   }
+
 }
 `
 

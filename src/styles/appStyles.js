@@ -63,7 +63,21 @@ nav a:last-of-type {
 .twit {
   border-radius: 50%;
 }
-
+  /* #region tablet media queries */
+  @media only screen and (max-width: 800px) {
+    header {
+      font-size: 1.3rem;
+    }
+    h1 {
+      width: 25%;
+      font-size: 1.7rem;
+    }
+    nav {
+      width: 40%;
+      margin-top: 0.7%;
+    }
+  }
+/* #region galaxy5 media queries */
 @media only screen and (max-width: 500px) {
   header {
     font-size: 1rem;
@@ -95,6 +109,9 @@ nav a:last-of-type {
     margin-top: 1%;
     text-align: center;
   }
+  /* #endregion */
+
+
 }
 ` 
 

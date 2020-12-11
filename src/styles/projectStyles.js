@@ -60,6 +60,31 @@ const StyledProject = styled.div`
     position: relative;
     left: -4%;
   }
+
+/* #region tablet media queries */
+@media only screen and (max-width: 800px) {
+  width: 96%;
+  margin: 3% 3% 10% 3%;
+  h3 {
+    white-space: nowrap;
+    margin-bottom: 5%;
+  }
+  .project-info {
+    width: 50%;
+    font-size: 1.6rem;
+    padding: 1%;
+  }
+
+  .project-info p {
+    line-height: 2rem;
+  }
+  li {
+    line-height: 1.2rem;
+  }
+}
+/* #endregion */
+
+/* #region galaxy5 media queries */
   @media only screen and (max-width: 500px) {
     flex-direction: column;
     text-align: center;
@@ -71,12 +96,11 @@ const StyledProject = styled.div`
       width: 100%;
       max-width: 100%;
       font-size: 1.3rem;
-      margin: 3% 1%;
+      margin: 3% 0;
     }
     .project-info {
       width: 100%;
       font-size: 1rem;
-      padding: 1%;
     }
     p {
       width: 90%;

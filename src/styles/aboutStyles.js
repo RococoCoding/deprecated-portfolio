@@ -20,7 +20,7 @@ em {
   color: var(--aqua);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   flex-direction: column;
   .about {
     width: 96%;
@@ -28,12 +28,21 @@ em {
   }
   h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 5%;
   }
   .about p {
-    font-size: 1 rem;
-    line-height: 1.3 rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+  @media only screen and (max-width: 500px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+    .about p {
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
   }
 }
 `
