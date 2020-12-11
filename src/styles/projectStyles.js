@@ -42,11 +42,6 @@ const StyledProject = styled.div`
     color: var(--darkaqua);
   }
 
-  em {
-    font-style: italic;
-    /* color: var(--darkaqua); */
-  }
-
   p {
     line-height: 1.6rem;
     margin-bottom: 5%;
@@ -64,6 +59,35 @@ const StyledProject = styled.div`
     font-weight: normal;
     position: relative;
     left: -4%;
+  }
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 2%;
+    border-bottom: 10px solid var(--extradarkaqua);
+    h3 {
+      width: 100%;
+      max-width: 100%;
+      font-size: 1.3rem;
+      margin: 3% 1%;
+    }
+    .project-info {
+      width: 100%;
+      font-size: 1rem;
+      padding: 1%;
+    }
+    p {
+      width: 90%;
+      margin: 0 auto;
+    }
+    ul {
+      margin-top: 2%;
+    }
+    li {
+      padding: 1%;
+    }
   }
 `
 export default StyledProject;

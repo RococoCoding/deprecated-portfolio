@@ -81,7 +81,7 @@ nav a:last-of-type {
   .social-media {
     width: 100%;
     order: 3;
-    margin-left: 30%;
+    margin-left: 27%;
     margin-top: 3%;
   }
   .social-media img {

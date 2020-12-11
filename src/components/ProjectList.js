@@ -13,7 +13,7 @@ export default function Projects(props) {
   return (
     <StyledProjects>
       {projectsArray.map((project, idx) => {
-        return <Project 
+        return <Project
           key={idx}
           src={project.image}
           text={project.text}

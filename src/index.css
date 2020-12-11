@@ -4,6 +4,7 @@
   --grey: #666666;
 	--aqua: #42f4cb;
 	--darkaqua: #3eb295;
+	--extradarkaqua: #117f5e;
 	--constructioncone: #FF7900;
 	--pastelaqua: #98d1c5;
 }
@@ -73,6 +74,13 @@ body {
 .project-container:nth-of-type(2n) div {
 	margin-right: 2%;
 	margin-left: 0;
+}
+
+@media only screen and (max-width: 500px) {
+	.project-container:nth-of-type(2n) {
+		margin-right: 2%;
+		margin-left: 0;
+	}
 }
 
 
