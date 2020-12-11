@@ -52,6 +52,19 @@ const StyledWriting = styled.div`
     color: var(--aqua);
     font-size: 1.5rem;
   }
+  @media only screen and (max-width: 500px) {
+  .blog-summary {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .blog-full {
+    font-size: 0.9rem;
+    border-radius: 7px;
+    width: 90%;
+  }
+  }
 `
 
 export default StyledWriting;
