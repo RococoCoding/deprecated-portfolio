@@ -21,7 +21,7 @@ const StyledWriting = styled.div`
     display: none;
     background-color: var(--pastelaqua);
     color: black;
-    border-radius: 2%;
+    border-radius: 10px;
     padding: 3% 5%;
     text-align: left;
   }
@@ -52,6 +52,17 @@ const StyledWriting = styled.div`
     color: var(--aqua);
     font-size: 1.5rem;
   }
+  .blog-subsubtitle {
+    border-bottom: none;
+    font-style: italic;
+  }
+  ul {
+    list-style: inside;
+    list-style-type: disc;
+  }
+  b {
+    font-weight: bold;
+  }
   
   @media only screen and (max-width: 800px) {
     .blog-summary {
@@ -61,7 +72,6 @@ const StyledWriting = styled.div`
       font-size: 1.9rem;
     }
     .blog-full {
-      border-radius: 7px;
       font-size: 1.8rem;
       line-height: 2rem;
       width: 90%;
