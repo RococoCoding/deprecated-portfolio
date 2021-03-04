@@ -1,7 +1,7 @@
 const blogs = [
   { title: "Don't Panic",
   date: "Mar. 3, 2021",
-  summary: "Family Promise Project Breakdown",
+  summary: "Family Promise Project Breakdown.",
   text: `<h2 class="blog-subtitle">Introduction</h2>
   <p>In the final month at Lambda School, students work in teams on a real-world project. The premise of this final month, called "Labs", is to mimic what it's like to work in a tech job. Some of the projects are greenfields, but most are existing projects where we have to familiarize ourselves with an existing codebase. We have a product roadmap and do daily standups and weekly stakeholder meetings and product review meetings.</p>
   
