@@ -11,16 +11,20 @@ export default function ProjectList(props) {
       <div className="img-title">
         <h3>{props.title}</h3>
         <p className={`${kebabStatus} project-status`}>{props.status}</p>
-        {props.url ? <a href={props.url} target="_blank" rel="noopener noreferrer"><img src={props.src} alt={`Screenshot of ${props.title} website`}/></a> : <img src={props.src} alt={`Screenshot of ${props.title} website`}/>}
       </div>
       <div className="project-info">
-        <p>{parse(props.text)}</p>
-        <ul>
-          {props.features.map((el, idx) =>{
-            return <li key={idx}><span>{parse(el)}</span></li>
-          })}
-        </ul>
+        <div className="project-image-wrapper">
+          {props.url ? <a href={props.url} target="_blank" rel="noopener noreferrer"><img src={props.src} alt={`Screenshot of ${props.title} website`} /></a> : <img src={props.src} alt={`Screenshot of ${props.title} website`} />}
+        </div>
+        <div className="project-info-text">
+          <p>{parse(props.text)}</p>
+          <ul>
+            {props.features.map((el, idx) => {
+              return <li key={idx}><span>{parse(el)}</span></li>;
+            })}
+          </ul>
+        </div>
       </div>
     </StyledProject>
-  ) 
+  );
 }

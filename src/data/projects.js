@@ -13,7 +13,7 @@ let projectsArray = [
     title: "Ace the Interview",
     status: "Completed",
     text: "<strong>Ace the Interview</strong> was a quick project I whipped up to help with practicing for behavioral interviews. I got the idea after I came across a website that contained a ton of questions. I realized I could use the Python web scraper I had made for the Leopardy! project (below) to gather all the questions and serve them up randomly using Node and Express to build an API and React to make a quick frontend. I researched to find an npm module that would provide webcam recording so people could record themselves answering for review.",
-    features: ["Python web scraper", "Node/Express API", "Webcam recording"],
+    features: ["Python web scraper", "Node/Express API", "Webcam recording", "SQLite3"],
     url: "https://ace-it-frontend-git-video.rocococoding.vercel.app/",
     github: "https://github.com/RococoCoding/ace-it-backend"
   },

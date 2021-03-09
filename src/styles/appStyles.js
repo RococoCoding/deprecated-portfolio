@@ -63,6 +63,11 @@ nav a:last-of-type {
 .twit {
   border-radius: 50%;
 }
+@media only screen and (max-width: 1070px) {
+  nav {
+    width: 43%;
+  }
+}
   /* #region tablet media queries */
   @media only screen and (max-width: 850px) {
     header {

@@ -4,7 +4,7 @@ import Skill from "./Skill";
 
 let codingSkillsArray = [{width: 95, language: "JavaScript"}, {width: 80, language: "HTML/CSS"}, {width: 70, language: "React/Redux"}, {width: 70, language: "Node/Express"}, {width: 55, language: "SQL/Knex"}, {width: 55, language: "Python"}];
 
-let otherSkillsArray = [{width: 4, language: "Regex", extra: "ERROR++ \\eR̨͚̱̥͕̲͒̆͑ͦ*RoЯ/ ++̸͓͚̽͌͆͐  Er\\ŗ̗̰͇̣͒ͭrê̸͎̦̳̳͙̦͆̑ͅr +\\E͕͖̭̮͖͉̭͐ͮ̀ͅr̠̜̤͓̖ͭ̎͌̏͢ͅ/̴̘̣̳̓̊*̡̮͒ͣͣ̑ͅͅͅÔ̹͕ͤ͆͡R̩̰̠͉̎ͮ͝/̩͈̦́͆̓́+"}, {width: 35, language: "git"}, {width: 35, language: "Jest/Cypress.io"}, {width: 95, language: "Stenography"}, {width: 95, language: "Remote communication"}];
+let otherSkillsArray = [{width: 4, language: "Regex", extra: "ERROR++ \\eR̨͚̱̥͕̲͒̆͑ͦ*RoЯ/ ++̸͓͚̽͌͆͐  Er\\ŗ̗̰͇̣͒ͭrê̸͎̦̳̳͙̦͆̑ͅr +\\E͕͖̭̮͖͉̭͐ͮ̀ͅr̠̜̤͓̖ͭ̎͌̏͢ͅ/̴̘̣̳̓̊*̡̮͒ͣͣ̑ͅͅͅÔ̹͕ͤ͆͡R̩̰̠͉̎ͮ͝/̩͈̦́͆̓́+"}, {width: 35, language: "git"}, {width: 35, language: "Jest/Cypress.io"}, {width: 95, language: "Stenography"}];
 
 const SkillsStyled = styled.section`
   width: 45%;

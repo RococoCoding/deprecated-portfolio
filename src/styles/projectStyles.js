@@ -3,13 +3,15 @@ import styled from "styled-components";
 const StyledProject = styled.div` 
   margin: 2%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 75%;
 
   img {
-    width: 40vw;
-    height: 35vw;
+    width: 100%;
+    height: 30vw;
     object-fit: contain;
+    object-position: left;
+    object-position: top;
   }
 
   h3 {
@@ -20,7 +22,7 @@ const StyledProject = styled.div`
   }
 
   .Completed {
-    color: var(--darkaqua);
+    color: var(--aqua);
   }
 
   .Under-Construction {
@@ -33,10 +35,19 @@ const StyledProject = styled.div`
 
   /* #region project info  */
   .project-info {
-    width: 40%;
-    margin-top: 2rem;
-    margin-left: 3%;
+    display: flex;
+    justify-content: start;  
+    width: 95%;
     font-size: 1.3rem;
+  }
+
+  .project-image-wrapper {
+    min-width: 30%;
+    max-width: 50%;
+  }
+  
+  .project-info-text {
+    margin-left: 10%;
   }
 
   .project-status {
@@ -46,7 +57,7 @@ const StyledProject = styled.div`
 
   strong {
     font-weight: bold;
-    color: var(--darkaqua);
+    color: var(--aqua);
   }
 
   p {
@@ -64,13 +75,10 @@ const StyledProject = styled.div`
 
   li span {
     font-weight: normal;
-    position: relative;
-    left: -4%;
   }
 @media only screen and (max-width: 1000px) {
   width: 96%;
   .project-info {
-    width: 40%;
     font-size: 1.1rem;
   }
 }
@@ -83,7 +91,6 @@ const StyledProject = styled.div`
     margin-bottom: 1%;
   }
   .project-info {
-    width: 50%;
     padding: 1%;
   }
 
@@ -100,7 +107,7 @@ const StyledProject = styled.div`
     width: 100%;
     margin: 0;
     padding-bottom: 2%;
-    border-bottom: 10px solid var(--extradarkaqua);
+    border-bottom: 10px solid var(--aqua);
     h3 {
       width: 100%;
       max-width: 100%;
@@ -108,21 +115,30 @@ const StyledProject = styled.div`
       margin: 3% 0;
     }
     .project-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       width: 100%;
       font-size: 1rem;
+    }
+    .project-info-text {
+      margin: 0;
+      text-align: center;
+    }
+    img {
+      object-position: center;
     }
     p {
       width: 90%;
       margin: 0 auto;
     }
     ul {
-      margin-top: 2%;
+      display: inline-block;
+      text-align: left;
     }
     li {
-      padding: 1%;
-    }
-    span {
-      margin-left: 2%;
+      width: max-content;
+      padding: 1% 3%;
     }
   }
 `
