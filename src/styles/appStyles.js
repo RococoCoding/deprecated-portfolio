@@ -64,7 +64,7 @@ nav a:last-of-type {
   border-radius: 50%;
 }
   /* #region tablet media queries */
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 850px) {
     header {
       font-size: 1.3rem;
     }
@@ -77,17 +77,15 @@ nav a:last-of-type {
       margin-top: 0.7%;
     }
   }
-/* #region galaxy5 media queries */
-@media only screen and (max-width: 500px) {
+/* #region 725 and under */
+@media only screen and (max-width: 725px) {
   header {
     font-size: 1rem;
-    height: 8vh;
-    flex-wrap: wrap;
-    width: 101%;
+    width: 100%;
     padding: 2%;
   }
   h1 {
-    width: 30%;
+    width: 45%;
     padding-top: 1%;
     text-align: center;
     font-size: 1rem;
@@ -95,8 +93,8 @@ nav a:last-of-type {
   .social-media {
     width: 100%;
     order: 3;
-    margin-left: 27%;
-    margin-top: 3%;
+    margin-left: 15%;
+    margin-top: 0.5%;
   }
   .social-media img {
     width: 40%;
@@ -108,13 +106,40 @@ nav a:last-of-type {
     margin: 0;
   }
   nav {
-    width: 65%;
+    width: 45%;
+    margin-left: 5%;
     margin-top: 1%;
     text-align: center;
   }
   /* #endregion */
-
-
+  /* #region  625 and under*/
+  @media only screen and (max-width: 625px) {
+    h1 {
+      width: 70%;
+      word-spacing: 0.1rem;
+    }
+    nav {
+      width: 30%;
+    }
+  }
+  /* #endregion */
+  /* #region 500 and under*/
+  @media only screen and (max-width: 500px) {
+    h1 {
+      width: 35%;
+      margin: -.5% 0 0 0;
+      font-size: 0.7rem;
+      padding: 0;
+    }
+    nav {
+      width: 60%;
+      font-size: 0.9rem;
+    }
+    .social-media img {
+      width: 45%;
+    }
+  }
+  /* #endregion */
 }
 ` 
 

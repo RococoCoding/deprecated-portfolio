@@ -9,8 +9,9 @@ export default function ProjectList(props) {
   return (
     <StyledProject className="project-container">
       <div className="img-title">
-        <h3>{props.title} - <span className={kebabStatus}>{props.status}</span></h3>
-        <a href={props.url} target='_new' > <img src={props.src} alt={`Screenshot of ${props.title} website`}/></a>
+        <h3>{props.title}</h3>
+        <p className={`${kebabStatus} project-status`}>{props.status}</p>
+        {props.url ? <a href={props.url} target="_blank" rel="noopener noreferrer"><img src={props.src} alt={`Screenshot of ${props.title} website`}/></a> : <img src={props.src} alt={`Screenshot of ${props.title} website`}/>}
       </div>
       <div className="project-info">
         <p>{parse(props.text)}</p>

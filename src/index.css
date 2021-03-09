@@ -76,7 +76,7 @@ body {
 	margin-left: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 	.project-container:nth-of-type(2n) {
 		margin-left: 2%;
 		padding-right: 0;
@@ -89,5 +89,3 @@ body {
 		padding-right: 0;
 	}
 }
-
-

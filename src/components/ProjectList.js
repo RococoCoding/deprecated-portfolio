@@ -20,6 +20,7 @@ export default function Projects(props) {
           title={project.title}
           status={project.status}
           url={project.url}
+          github={project.github}
           features={project.features}
         />
       })}
