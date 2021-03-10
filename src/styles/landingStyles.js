@@ -22,12 +22,12 @@ const LandingStyled = styled.div`
     flex-direction: column;
     text-align: center;
     width: 50%;
-    padding: 15% 5% 15% 0;
     line-height: 2.5rem;
+    padding: 0 10%;
   }
 
   h2 {
-    margin: 5% 0;
+    margin: 16rem 0 2rem 0;
     font-size: 4.5rem;
   }
 
@@ -73,12 +73,12 @@ const LandingStyled = styled.div`
   @keyframes drop-dev {
     0% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: 63%;
     }
   }
@@ -86,17 +86,17 @@ const LandingStyled = styled.div`
   @keyframes drop-web {
     0% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     50% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: 48%;
     }
   }
@@ -104,17 +104,17 @@ const LandingStyled = styled.div`
   @keyframes drop-stack {
     0%{
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     66% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: 33%;
     }
   }
@@ -122,28 +122,34 @@ const LandingStyled = styled.div`
   @keyframes drop-full {
     0%{
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     75% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 18%;
+      left: 14%;
       top: 19%;
     }
   }
-
+  @media only screen and (max-width: 1000px) {
+    .landing-intro {
+      padding: 0 5% 0 15%;
+    }
+    .landing-anim {
+      width: 30%;
+    }
+  }
   @media only screen and (max-width: 800px) {
     .landing-intro {
-      margin: 0% 0;
     }
     h2 {
+      margin-top: 10rem;
       line-height: 4.8rem;
-      margin-left: 0 0 0 7%;
     }
     .landing-anim {
       margin: 0 0 0 10%;
