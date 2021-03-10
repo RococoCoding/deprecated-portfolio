@@ -20,6 +20,7 @@ const LandingStyled = styled.div`
   .landing-intro {
     display: flex;
     flex-direction: column;
+    text-align: center;
     width: 50%;
     padding: 15% 5% 15% 0;
     line-height: 2.5rem;
@@ -40,8 +41,9 @@ const LandingStyled = styled.div`
     padding: 2% 4%;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-top: 5%;
     border-radius: 6px;
+    width: 13rem;
+    margin: 5% auto 0 auto;
   }
 
   button:hover {
@@ -167,10 +169,10 @@ const LandingStyled = styled.div`
     }
     button {
       font-size: 1.3rem;
-      margin: 0 auto;
+      margin: 4% auto;
     }
     h2 {
-      margin-top: 3rem;
+      margin-top: 4rem;
       font-size: 2.4rem;
       line-height: 1rem;
       text-align: center;
@@ -180,9 +182,6 @@ const LandingStyled = styled.div`
     }
     .landing-anim p {
       font-size: 3.5rem;
-    }
-    button {
-      margin-top: 10%;
     }
     
   @keyframes drop-dev {
