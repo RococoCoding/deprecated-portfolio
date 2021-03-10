@@ -20,7 +20,7 @@ let projectsArray = [
   {
     image: "/assets/projects/relgoals.png",
     title: "Relationship Goals",
-    status: "Under construction",
+    status: "Under Construction",
     text: "Side project that helps people maintain relationships with friends and family. I worked on this project as a fullstack developer in a small team. I worked on loading the user profile and setting up edit and delete capabilities as well as setting up the admin powers so admins could add goals, search for goals and edit them, and give others admin powers. Biggest challenge: we spent an afternoon trying to figure out how to nest data from one table inside data from another table when they were joined by a junction table, and realized we couldn't really do it with plain SQL. I ended up writing a workaround using for loops to merge the data after making separate calls to the database.",
     features: ["REST API", "React function components", "Redux state management"],
     url: "",
