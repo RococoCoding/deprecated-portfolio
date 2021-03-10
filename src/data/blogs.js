@@ -1,7 +1,7 @@
 const blogs = [
   { title: "Don't Panic",
   date: "Mar. 3, 2021",
-  summary: "Family Promise Project Breakdown.",
+  summary: "Family Promise Project Breakdown",
   text: `<h2 class="blog-subtitle">Introduction</h2>
   <p>In the final month at Lambda School, students work in teams on a real-world project. The premise of this final month, called "Labs", is to mimic what it's like to work in a tech job. Some of the projects are greenfields, but most are existing projects where we have to familiarize ourselves with an existing codebase. We have a product roadmap and do daily standups and weekly stakeholder meetings and product review meetings.</p>
   
@@ -66,7 +66,7 @@ const blogs = [
 {
   title: "App Planning",
   date: "Dec. 1, 2020",
-  summary: "Tips on how to plan your app.",
+  summary: "Tips on how to plan your app",
   text: `<p>One of the things I wished they'd talked more about at the school was planning your app. Early on, I would just start writing the first thing on the page I wanted to see and went from there. After learning advanced state management, I was finally able to see the big picture, and now I can think about planning an app much easier than I did before. If you're new to coding and want some tips on how to plan your apps before you code, here's what I've learned.</p>
   
   <p>The first thing to do is try and visualize the page and how you would want it to look. This doesn't have to be a design thing -- just focus on a simple wireframe type of site. What are the main elements? Say, header, nav, page components. Then you dig down. What's inside of those? Links, information, icons, images. Write it all down.</p>
@@ -86,7 +86,7 @@ const blogs = [
 {
   title: "Build Week 3",
   date: "Nov. 25, 2020",
-  summary: "Lessons learned from a week-long team project.",
+  summary: "Lessons learned from a week-long team project",
   text: `<p>At Lambda School, we have this thing called Build Week. Our courses are broken up into units that are three weeks of lecture and daily exercises, followed by one week that's just building. No lectures. You team up with people from other units to build an app over the course of the week. Unit 4 people do the back end, Unit 2 does the front end, and Unit 3 ties it all together with advanced state management.</p> 
   
   <p>Last week I was the Unit 3 person in my team, and I want to write about it because I felt like it's the role where you have to see the bigger picture, and that was kind of exciting to me, and also because I learned a good lesson about communication.</p> 
