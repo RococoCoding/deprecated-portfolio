@@ -10,7 +10,9 @@ export default function ProjectList(props) {
     <StyledProject className="project-container">
       <div className="img-title">
         <h3>{props.title}</h3>
-        <p className={`${kebabStatus} project-status`}>{props.status}</p>
+        <p className={`${kebabStatus} project-status`}>{props.status}
+        <a href={props.github} target="_blank" rel="noopener noreferrer"><img src="assets/github.png" className="projects-github-icon" alt="github icon"/></a>
+        </p>
       </div>
       <div className="project-info">
         <div className="project-image-wrapper">

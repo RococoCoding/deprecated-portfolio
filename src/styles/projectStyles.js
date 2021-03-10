@@ -8,10 +8,7 @@ const StyledProject = styled.div`
 
   img {
     width: 100%;
-    height: 30vw;
-    object-fit: contain;
-    object-position: left;
-    object-position: top;
+    object-fit: fill;
   }
 
   h3 {
@@ -33,6 +30,11 @@ const StyledProject = styled.div`
     color: red;
   }
 
+  .projects-github-icon {
+    width: 3%;
+    margin-left: 3%;
+  }
+
   /* #region project info  */
   .project-info {
     display: flex;
@@ -42,8 +44,7 @@ const StyledProject = styled.div`
   }
 
   .project-image-wrapper {
-    min-width: 30%;
-    max-width: 50%;
+    min-width: 40%;
   }
   
   .project-info-text {
@@ -76,12 +77,18 @@ const StyledProject = styled.div`
   li span {
     font-weight: normal;
   }
+
 @media only screen and (max-width: 1000px) {
   width: 96%;
   .project-info {
+    width: 90%;
     font-size: 1.1rem;
   }
+  .project-image-wrapper {
+    min-width: 40%;
+  }
 }
+
 /* #region tablet media queries */
 @media only screen and (max-width: 800px) {
   width: 96%;
@@ -93,14 +100,13 @@ const StyledProject = styled.div`
   .project-info {
     padding: 1%;
   }
-
   li {
     line-height: 1.2rem;
   }
 }
 /* #endregion */
 
-/* #region 500 and under queries */
+/* #region 500 and under media queries */
   @media only screen and (max-width: 500px) {
     flex-direction: column;
     text-align: center;
@@ -124,9 +130,6 @@ const StyledProject = styled.div`
     .project-info-text {
       margin: 0;
       text-align: center;
-    }
-    img {
-      object-position: center;
     }
     p {
       width: 90%;

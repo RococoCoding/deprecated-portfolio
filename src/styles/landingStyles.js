@@ -1,11 +1,11 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 const LandingStyled = styled.div`
   display: flex;
   width: 100%;
   font-size: 3rem;
-  justify-content: space-between;
-  align-items: space-between;
+  /* justify-content: space-between;
+  align-items: space-between; */
   .landing-anim {
     width: 50%;
     text-align: center;
@@ -18,6 +18,8 @@ const LandingStyled = styled.div`
   }
 
   .landing-intro {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     padding: 15% 5% 15% 0;
     line-height: 2.5rem;
@@ -33,7 +35,6 @@ const LandingStyled = styled.div`
   }
   
   button {
-    margin-left: 27%;
     background-color: var(--darkaqua);
     color: var(--white);
     padding: 2% 4%;
@@ -136,25 +137,25 @@ const LandingStyled = styled.div`
 
   @media only screen and (max-width: 800px) {
     .landing-intro {
-      margin: 22% 0;
+      margin: 0% 0;
     }
     h2 {
       line-height: 4.8rem;
-      margin-left: 14%;
-      margin-bottom:7%;
+      margin-left: 0 0 0 7%;
     }
     .landing-anim {
-      margin-left: 10%;
+      margin: 0 0 0 10%;
+      text-align: center;
     }
     button {
       margin-top: 10%;
     }
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 610px) {
     flex-direction: column;
     .landing-intro {
       width: 90%;
-      margin: 70% 0 0 5%;
+      margin: 16rem auto 0 auto;
       padding: 0;
     }
     .landing-intro p {
@@ -166,15 +167,16 @@ const LandingStyled = styled.div`
     }
     button {
       font-size: 1.3rem;
-      margin-left: 37%;
+      margin: 0 auto;
     }
     h2 {
+      margin-top: 3rem;
       font-size: 2.4rem;
-      line-height: 4.8rem;
-      margin: 5% 0 0 16%;
+      line-height: 1rem;
+      text-align: center;
     }
     .landing-anim {
-      margin-top: 5%;
+      margin: 5% auto 0 auto;
     }
     .landing-anim p {
       font-size: 3.5rem;
@@ -186,12 +188,12 @@ const LandingStyled = styled.div`
   @keyframes drop-dev {
     0% {
       position: fixed;
-      left: 37%;
+      left: 40%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 37%;
+      left: 40%;
       top: 33%;
     }
   }
@@ -199,17 +201,17 @@ const LandingStyled = styled.div`
   @keyframes drop-web {
     0% {
       position: fixed;
-      left: 35%;
+      left: 38%;
       top: -15%;
     }
     50% {
       position: fixed;
-      left: 35%;
+      left: 38%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 35%;
+      left: 38%;
       top: 23%;
     }
   }
@@ -217,17 +219,17 @@ const LandingStyled = styled.div`
   @keyframes drop-stack {
     0%{
       position: fixed;
-      left: 31%;
+      left: 35%;
       top: -15%;
     }
     66% {
       position: fixed;
-      left: 31%;
+      left: 35%;
       top: -15%;
     }
     100% {
       position: fixed;
-      left: 31%;
+      left: 35%;
       top: 12%;
     }
   }
@@ -235,20 +237,26 @@ const LandingStyled = styled.div`
   @keyframes drop-full {
     0%{
       position: fixed;
-      left: 38%;
+      left: 40%;
       top: -15%;
     }
     75% {
       position: fixed;
-      left: 38%;
+      left: 40%;
       top: -15%;
     }
     100% {
-      position: fixed;
-      left: 38%;
+      position: fixed; 
+      left: 40%;
       top: 2%;
     }
   }
   }
-`
+
+  @media only screen and (max-width: 400px) {
+    .landing-intro {
+      margin-top: 15rem; 
+    }
+  }
+`;
 export default LandingStyled;

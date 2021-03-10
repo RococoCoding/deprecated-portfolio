@@ -71,14 +71,10 @@ body {
 	padding-right: 5%;
 	/* flex-direction: row-reverse; */
 }
-.project-container:nth-of-type(2n) div {
-	margin-right: 2%;
-	margin-left: 0;
-}
 
 @media only screen and (max-width: 1000px) {
 	.project-container:nth-of-type(2n) {
-		margin-left: 2%;
+		margin-left: 10%;
 		padding-right: 0;
 	}
 }
