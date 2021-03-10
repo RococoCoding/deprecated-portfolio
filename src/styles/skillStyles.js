@@ -25,18 +25,21 @@ const SkillStyled = styled.div`
     padding-left: 2%;
     white-space: nowrap;
   }
-  
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1100px) {
+    .skill-bar {
+      margin-left: 8%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
     .skill-bar-wrapper {
       width: 60%;
     }
     .skill-text {
       width: 30%;
-      font-size: 1.5rem;
-      margin-left: 3%;
+      font-size: 1.4rem;
     }
     .skill-bar {
-      margin-left: 0;
+      margin-left: 20%;
     }
   }
 
