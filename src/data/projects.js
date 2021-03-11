@@ -48,7 +48,7 @@ let projectsArray = [
     image: "/assets/projects/leopardy.jpg",
     title: "Leopardy!",
     status: "Under Construction",
-    text: "This is a quiz game that's slightly different from Jeopardy! but uses real Jeopardy! questions. I originally was going to use an existing API to get the questions for this game, but I realized the two Jeopardy! APIs I found online weren't going to work for my needs, so I researched how to make a web scraper in Python and adapted that to my needs. I'm currently in the process of figuring out how to set up my database with Postrgres and Heroku.",
+    text: "This is a quiz game that's slightly different from Jeopardy! but uses real Jeopardy! questions. I originally was going to use an existing API to get the questions for this game, but I realized the two Jeopardy! APIs I found online weren't going to work for my needs, so I researched how to make a web scraper in Python and adapted that to my needs. I'm currently in the process of figuring out how to set up my database with Postgres and Heroku.",
     features: ["Python web scraper", "<em>Leopards!</em>", "React routing", "React function components", "Node/Express API"],
     url: "",
     github: "https://github.com/RococoCoding/leopardy"
